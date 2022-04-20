@@ -1,4 +1,7 @@
-package com.minchul.javalab.object.ch14.templatemethod;
+package com.minchul.javalab.object.ch14;
+
+import com.minchul.javalab.object.ch14.templatemethod.ExpendTemplate1;
+import com.minchul.javalab.object.ch14.templatemethod.ExpendTemplate2;
 
 public class Application {
 

@@ -1,5 +1,8 @@
 package com.minchul.javalab.object.ch14;
 
+import com.minchul.javalab.object.ch14.decorator.Client;
+import com.minchul.javalab.object.ch14.decorator.ProxyServer;
+import com.minchul.javalab.object.ch14.decorator.RealServer;
 import com.minchul.javalab.object.ch14.strategy.Car;
 import com.minchul.javalab.object.ch14.strategy.FlyableEngine;
 import com.minchul.javalab.object.ch14.strategy.ForwardEngine;
@@ -25,6 +28,13 @@ public class Application {
         TemplateCallbackCar callbackCar = new TemplateCallbackCar();
         callbackCar.drive(new FlyableEngine());
         callbackCar.drive(new ForwardEngine());
+
+        Client client = new Client(new RealServer());
+        client.request();
+
+        ProxyServer proxyServer = new ProxyServer(new RealServer());
+        Client client1 = new Client(proxyServer);
+        client1.request();
     }
 
 }

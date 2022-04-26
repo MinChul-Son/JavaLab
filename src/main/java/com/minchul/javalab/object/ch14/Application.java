@@ -1,8 +1,8 @@
 package com.minchul.javalab.object.ch14;
 
-import com.minchul.javalab.object.ch14.decorator.Client;
-import com.minchul.javalab.object.ch14.decorator.ProxyServer;
-import com.minchul.javalab.object.ch14.decorator.RealServer;
+import com.minchul.javalab.object.ch14.proxy.Client;
+import com.minchul.javalab.object.ch14.proxy.ProxyServer;
+import com.minchul.javalab.object.ch14.proxy.RealServer;
 import com.minchul.javalab.object.ch14.strategy.Car;
 import com.minchul.javalab.object.ch14.strategy.FlyableEngine;
 import com.minchul.javalab.object.ch14.strategy.ForwardEngine;

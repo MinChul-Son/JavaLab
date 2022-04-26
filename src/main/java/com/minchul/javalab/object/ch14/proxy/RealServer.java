@@ -1,4 +1,4 @@
-package com.minchul.javalab.object.ch14.decorator;
+package com.minchul.javalab.object.ch14.proxy;
 
 import lombok.extern.slf4j.Slf4j;
 

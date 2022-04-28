@@ -1,0 +1,18 @@
+programming:
+  language:
+    - C
+    - Java
+    - Python
+    - JavaScript
+
+korea:
+  people:
+    -
+      name: ??
+      age: 26
+    -
+      name: ??
+      age: 13
+    -
+      name: ????
+      age: 30
